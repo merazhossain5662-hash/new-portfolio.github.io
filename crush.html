@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="crush.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <title>My Crush 👀</title>
+  <link rel="stylesheet" href="crush.css"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+    <header class="navbar">
+         <h1 class="logo">ME<span id="r">R</span>AZ</h1>
+  <nav class="navbar">
+     <a href="index.html" class="nav-link">Home &#127968;</a>
+    <a href="inter.html" class="nav-link">Interested 😍</a>
+    <a href="crush.html" class="nav-link">Crush&#10084;&#65039;</a>
+    <a href="achivemants.html" class="nav-link">Achievements &#127941;	</a>
+    <a href="contact.html" class="nav-link">Contact <i class="fa fa-phone"></i>
+        </a>
+  </nav>
+   </header>
+  <!-- Main Content -->
+   <div id="crash">
+  <div class="container">
+    <h1>Why do you want to know about that?</h1>
+    <p class="question">And what will you do after knowing? 🤔</p>
+
+    <!-- Image Space -->
+    <div class="image-box">
+      <p>📸 Image will be added here</p>
+    </div>
+
+    <!-- Funny Lines -->
+    <div class="fun-lines">
+      <p>😂 By the way, I don’t have any crush 😎</p>
+      <p>🤣 Maybe I’m too busy with coding!</p>
+      <p>😜 Or maybe the crush is on pizza 🍕</p>
+      <p>🤪 Don’t worry, your secrets are safe here!</p>
+      <p>😏 Just kidding… or am I?</p>
+    </div>
+
+    <button id="moreBtn">Show more lines 😆</button>
+
+    <!-- Extra hidden funny lines -->
+    <div id="extraLines" style="display:none; margin-top:15px;">
+      <p>🙈 Seriously, I’m allergic to drama 😅</p>
+      <p>🕵️‍♂️ But I see you trying to snoop 👀</p>
+      <p>😂 Don’t worry, everyone has a secret crush… even me!</p>
+    </div>
+  </div>
+
+  <script>
+    const btn = document.getElementById('moreBtn');
+    const extra = document.getElementById('extraLines');
+
+    btn.addEventListener('click', () => {
+      if (extra.style.display === "none") {
+        extra.style.display = "block";
+        btn.textContent = "Hide extra lines 🙃";
+      } else {
+        extra.style.display = "none";
+        btn.textContent = "Show more lines 😆";
+      }
+    });
+  </script>
+  <br>
+  <br>
+  <br>
+  <br>
+      </div>
+        <footer>
+        © 2026 Meraz | <b>"This is for her ==>❤️"</b>
+    </footer>
+</body>
+</html>

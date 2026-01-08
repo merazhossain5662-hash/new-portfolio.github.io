@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  
+}
+
+/* Navbar */
+.navbar {
+  background: #222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Main Container */
+.container {
+  max-width: 700px;
+  margin: 80px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.question {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Image Placeholder */
+.image-box {
+  height: 200px;
+  border: 2px dashed #aaa;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  color: #777;
+  font-size: 16px;
+}
+
+/* Note */
+.note {
+  font-size: 16px;
+  color: #888;
+}
+.fun-lines p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+#moreBtn {
+  background: #ff6b81;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#moreBtn:hover {
+  background: #ff4757;
+}
+
+.image-box img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+#moreBtn {
+  background: #ff6b81;      /* Pink-ish base */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Hover Effects */
+
