@@ -726,3 +726,12 @@ body.light nav a {
     text-align: center;
     color: #94a3b8;
 }
+.sect-port{
+    flex-wrap: wrap;
+}
+@media screen and (max-width:565) {
+ .sect-port{
+    display: grid;
+    grid-template-columns: (1, 1fr);
+ }   
+}
